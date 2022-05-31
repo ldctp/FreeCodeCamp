@@ -69,6 +69,7 @@ input{
   margin-bottom: 1.5rem;
 }
 
+
 #enjoy {
   background-color: #fff;
   background-clip: padding-box;
@@ -76,6 +77,18 @@ input{
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+#yes {
+  float: left;
+}
+#no {
+  float: left;
+}
+#sometimes {
+  float: left;
+}
+
+
 
     </style>
 
@@ -147,7 +160,7 @@ input{
        <option value="Other">Other</option>
        </select>
     
-        <fieldset id="enjoy">
+        <fieldset id="enjoy" class="form-control">
         <label id="radio-label" for="radio">Do you enjoy reading?</label>
         <input id="yes" type="radio" name="items" value="yes">
         <label for="yes">Yes</label><br>
