@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TributePage</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  font-size: 10px;
+}
+
+body {
+  background-color: hsla(354, 60%, 80%, 1);
+  font-family: 'Red Hat Mono', monospace;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background-color: hsla(354, 60%, 93%, 1);
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 10px 0;
+}
+    </style>
+</head>
+<header>
+    <h1 id="title">Annie Easley</h1>
+  </header>
+  <body id="main">
+    <h2>The NASA Rocket Scientist</h2>
+  <figure id="img-div" >
+  
+  <img id="image" src="https://www.globalapptesting.com/hs-fs/hubfs/annie%20easley.jpg?width=1000&name=annie%20easley.jpg">
+   
+   <figcaption id="img-caption">
+        Annie Easley, a trailblazer for gender and racial diversity in STEM
+      </figcaption>
+  </figure>
+  
+    <section id="tribute-info">
+    <h3>Timeline of Annie Easley's Life</h3>
+  <ul>
+    <li><strong>1933</strong> Born in Birmingham, Alabama </li>
+    <li><strong>1955</strong> Began career as a 'human computer' at NASA which involved doing computation for researchers </li>
+    <li><strong>1960</strong> Helped with protests for black people to have to right to vote in Alabama (law passed in 1960) </li>
+    <li><strong>1970</strong> Return to school to recieve a degree in mathematics </li>
+    <li><strong>1989</strong> Annie Easley retired </li>
+    <li><strong>2011</strong> Annie Easley died, but continues to be an inspiration today </li>
+      </ul>
+     
+  For more information, <a id="tribute-link" href="https://en.wikipedia.org/wiki/Annie_Easley" target="_blank">here is her wikipedia page</a>
+  </body>
+</html>
